@@ -5,7 +5,6 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
     char char1, char2, char3, char4, char5;
     int num1, num2, num3, num4, num5;
 
