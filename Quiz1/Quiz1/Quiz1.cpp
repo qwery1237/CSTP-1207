@@ -5,15 +5,17 @@
 
 int main()
 {
-    double fah1 = 100;
-    double fah2 = 90;
-    double fah3 = 80;
-    double centigrad1 = (fah1 - 32) * 5 / 9;
-    double centigrad2 = (fah2 - 32) * 5 / 9;
-    double centigrad3 = (fah3 - 32) * 5 / 9;
-    std::cout << centigrad1 << "\n";
-    std::cout << centigrad2 << "\n";
-    std::cout << centigrad3 << "\n";
+    int fah1 = 0;
+    int fah2 = 0;
+    int fah3 = 0;
+    std::cout << "please enter 3 integer Fahrenheit values separated by a space\n";
+    std::cin >> fah1 >> fah2 >> fah3;
+
+    int centigrad1 = (fah1 - 32) * 5 / 9;
+    int centigrad2 = (fah2 - 32) * 5 / 9;
+    int centigrad3 = (fah3 - 32) * 5 / 9;
+
+    std::cout << "Calculated Celsius values are " << centigrad1 << ", " << centigrad2 << ", " << centigrad3 << "\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
