@@ -9,6 +9,40 @@ void BasicArrayExample() {
     int a4 = numbers[3];
     int total = a1 + a4;
 
+    if (numbers[0] == 0) {
+        std::cout << "equal to zero\n";
+    }
+    else if (numbers[0] < 0) {
+        std::cout << " less than zero\n";
+    }
+    else {
+        std::cout << "greater than zero\n";
+    }
+
+    while (numbers[0] > 0) {
+        numbers[0]--;
+    }
+
+    do {
+        numbers[1]--;
+    } while (numbers[1] > 0);
+
+    for (int i = 0; i < 10; ++i) {
+        std::cout << "i=" << i << std::endl;
+    }
+
+    int labArr[101];
+    for (int i = 0; i < 101; ++i ) {
+        if (i == 0) {
+            labArr[0] = 1;
+        }
+        else {
+            labArr[i] = i * 10;
+        }
+
+        std::cout << labArr[i] << std::endl;
+    }
+
     
 
 }
@@ -21,8 +55,10 @@ bool IsEven(int num) {
     if (remainder == 0) {
         return true;
     }
+    else {
+        return false;
+    }
 
-    return false;
 }
 
 void Basicconditionals() {
