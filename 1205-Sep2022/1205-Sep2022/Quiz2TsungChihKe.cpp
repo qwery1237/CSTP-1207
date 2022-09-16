@@ -12,8 +12,8 @@ void Week2Quiz2() {
 	}
 	int getArrayLength = sizeof(numbers) / sizeof(int);
 	int average = sum / getArrayLength;
-	std::cout << sum << "\n";
-	std::cout << average << "\n";
+	std::cout << "The Total of numbers is " << sum << "\n";
+	std::cout << "The average of numbers is " << average << "\n";
 
 
 }
