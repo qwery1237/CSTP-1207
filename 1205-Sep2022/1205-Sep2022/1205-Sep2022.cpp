@@ -4,13 +4,16 @@
 #include <iostream>
 #include "ArrayExample.h"
 #include "Quiz1.h"
+#include "Quiz2TsungChihKe.h"
+
 
 using namespace std;
 int main()
 {
-    BasicArrayExample();
-    Week2Quiz1();
-    Basicconditionals();
+    //BasicArrayExample();
+   // Week2Quiz1();
+    //Basicconditionals();
+   Week2Quiz2();
 
     return 0;
 
