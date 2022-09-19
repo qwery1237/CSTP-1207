@@ -144,9 +144,12 @@
     <ClCompile Include="ArrayExample.cpp" />
     <ClCompile Include="Quiz1.cpp" />
     <ClCompile Include="Quiz2TsungChihKe.cpp" />
+    <ClCompile Include="Assignment2_TsungChihKe.cpp" />
+    <ClCompile Include="SwitchCase.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayExample.h" />
+    <ClInclude Include="Assignment2_TsungChihKe.h" />
     <ClInclude Include="Quiz2TsungChihKe.h" />
     <ClInclude Include="Quiz1.h" />
   </ItemGroup>

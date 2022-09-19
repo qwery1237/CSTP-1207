@@ -25,6 +25,9 @@
     <Filter Include="Source Files\Quiz2">
       <UniqueIdentifier>{51e86698-383a-407b-9b42-621b793deca2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Assignment2">
+      <UniqueIdentifier>{b81e3022-0580-4ea4-8740-5f4f5161b1a5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1205-Sep2022.cpp">
@@ -42,6 +45,12 @@
     <ClCompile Include="Quiz2TsungChihKe.cpp">
       <Filter>Source Files\Quiz2</Filter>
     </ClCompile>
+    <ClCompile Include="SwitchCase.cpp">
+      <Filter>Source Files\Week2</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment2_TsungChihKe.cpp">
+      <Filter>Source Files\Assignment2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayExample.h">
@@ -52,6 +61,9 @@
     </ClInclude>
     <ClInclude Include="Quiz2TsungChihKe.h">
       <Filter>Source Files\Quiz2</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment2_TsungChihKe.h">
+      <Filter>Source Files\Assignment2</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

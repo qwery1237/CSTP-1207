@@ -1,4 +1,36 @@
 #include <iostream>
+void SwapCopies(int x, int y) {
+    int temp;
+    temp = x;
+    x = y;
+    y = temp;
+}
+
+void Swap(int* px, int* py) {
+    int temp;
+    temp = *px;
+    *px = *py;
+    *py = temp;
+}
+
+void ArrayAccessByPointer() {
+    int arr[] = { 10, 20, 30, 40, 40 };
+
+    std::cout << "arr[1]=" << arr[1] << "\n";
+
+    int* pi;
+    pi = &arr[0];
+
+    std::cout << "value at pi+1= " << *(pi + 1) << std::endl;
+}
+
+void InitializeArray(int* p, int n) {
+    while (n-- > 0) {
+        *p = 0;
+        ++p;
+    }
+}
+
 void BasicArrayExample() {
 
     char arr[5];
