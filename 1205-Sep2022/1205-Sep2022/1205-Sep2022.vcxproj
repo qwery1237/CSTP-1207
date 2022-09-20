@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1205-Sep2022.cpp" />
+    <ClCompile Include="Assignment3_TsungChihKe.cpp" />
     <ClCompile Include="main.c" />
     <ClCompile Include="ArrayExample.cpp" />
     <ClCompile Include="Quiz1.cpp" />
@@ -150,6 +151,7 @@
   <ItemGroup>
     <ClInclude Include="ArrayExample.h" />
     <ClInclude Include="Assignment2_TsungChihKe.h" />
+    <ClInclude Include="Assignment3_TsungChihKe.h" />
     <ClInclude Include="Quiz2TsungChihKe.h" />
     <ClInclude Include="Quiz1.h" />
   </ItemGroup>

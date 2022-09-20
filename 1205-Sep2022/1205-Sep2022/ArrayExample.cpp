@@ -1,17 +1,5 @@
 #include <iostream>
-void SwapCopies(int x, int y) {
-    int temp;
-    temp = x;
-    x = y;
-    y = temp;
-}
 
-void Swap(int* px, int* py) {
-    int temp;
-    temp = *px;
-    *px = *py;
-    *py = temp;
-}
 
 void ArrayAccessByPointer() {
     int arr[] = { 10, 20, 30, 40, 40 };
@@ -29,6 +17,40 @@ void InitializeArray(int* p, int n) {
         *p = 0;
         ++p;
     }
+}
+
+void BasicPointer() {
+    
+    int* ip;
+    int x = 123;
+    ip = &x; // & address of is used here to get the address of x and put it in ip pointer
+
+    char* cp;
+    char c = 'a';
+    cp = &c;
+
+    char* cp2 = nullptr;// initialize a pointer that coes not point to any object
+
+    // this is called dereferencing a pointer e.g. *cp
+    char d = *cp; //set the char value at the address pointer is pointing to, to the var d
+    
+    *cp = 'x';// changing the value of pointed-to char
+
+}
+
+void SwapCopies(int a, int b) {
+    int temp;
+    temp = a;
+    a = b;
+    b = temp;
+    std::cout << "x=" << a << "y=" << b << std::endl;
+}
+
+void Swap(int* px, int* py) {
+    int temp;
+    temp = *px;
+    *px = *py;
+    *py = temp;
 }
 
 void BasicArrayExample() {
