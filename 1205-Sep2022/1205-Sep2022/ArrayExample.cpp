@@ -38,12 +38,12 @@ void BasicPointer() {
 
 }
 
-void SwapCopies(int a, int b) {
+void SwapCopies(int x, int y) {
     int temp;
-    temp = a;
-    a = b;
-    b = temp;
-    std::cout << "x=" << a << "y=" << b << std::endl;
+    temp = x;
+    x = y;
+    y = temp;
+    std::cout << "x=" << x << "y=" << y << std::endl;
 }
 
 void Swap(int* px, int* py) {

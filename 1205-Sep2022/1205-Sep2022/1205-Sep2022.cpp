@@ -32,9 +32,8 @@ int main()
     //InitializeArray(arr, 10);
 
     int arr[5] = { 3,5,7,10,20};
-    Assignment3(arr, 5);
-    CalculateAverage(arr, 5);
-
+    Print(arr, 5);
+    std::cout << "The array average of all elements is: " << CalculateAverage(arr, 5) << std::endl;
     return 0;
 
     
