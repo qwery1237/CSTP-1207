@@ -7,6 +7,9 @@
 #include "Quiz2TsungChihKe.h"
 #include "Assignment2_TsungChihKe.h"
 #include "Assignment3_TsungChihKe.h"
+#include "Quiz1.h"
+#include "Quiz3.h"
+#include "Quiz4.h"
 
 
 using namespace std;
@@ -34,6 +37,11 @@ int main()
     int arr[5] = { 3,5,7,10,20};
     Print(arr, 5);
     std::cout << "The array average of all elements is: " << CalculateAverage(arr, 5) << std::endl;
+    bool boolArr[4] = { true, true, false, false };
+    Quize3(boolArr, 4);
+    bool newBoolArr[4] = { false, false, false, false };
+    Quize4(newBoolArr, 4, true);
+    
     return 0;
 
     
