@@ -5,9 +5,5 @@ void Quize4 (bool* pb, int n, bool b) {
 			*(pb + i) = b;
 			std::cout << "true" << std::endl;
 		}
-		else {
-			*(pb + i) = b;
-			std::cout << "false" << std::endl;
-		}
 	}
 }

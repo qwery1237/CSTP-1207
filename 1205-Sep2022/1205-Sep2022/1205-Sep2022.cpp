@@ -43,9 +43,9 @@ int main()
     //Quize4(newBoolArr, 4, true);
     
     bool testBoolArr[5] = { true, false, true, false, false };
-    Quize3(testBoolArr, 5);
-    Quize4(testBoolArr, 5, true);
-    Quize3(testBoolArr, 5);
+    Quize3(&testBoolArr[0], 5);
+    Quize4(&testBoolArr[0], 5, true);
+    Quize3(&testBoolArr[0], 5);
 
     return 0;
 
