@@ -10,6 +10,7 @@
 #include "Quiz1.h"
 #include "Quiz3.h"
 #include "Quiz4.h"
+#include "Week4.h"
 
 
 using namespace std;
@@ -46,6 +47,9 @@ int main()
     Quize3(&testBoolArr[0], 5);
     Quize4(&testBoolArr[0], 5, true);
     Quize3(&testBoolArr[0], 5);
+
+    TestCString();
+    CstringPring();
 
     return 0;
 

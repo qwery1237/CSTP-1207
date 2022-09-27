@@ -139,7 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1205-Sep2022.cpp" />
+    <ClCompile Include="1205-Sep2022.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
     <ClCompile Include="Assignment3_TsungChihKe.cpp" />
     <ClCompile Include="main.c" />
     <ClCompile Include="ArrayExample.cpp" />
@@ -148,12 +150,19 @@
     <ClCompile Include="Assignment2_TsungChihKe.cpp" />
     <ClCompile Include="Quiz3.cpp" />
     <ClCompile Include="Quiz4.cpp" />
+    <ClCompile Include="Quiz5.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="Week4.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
     <ClCompile Include="SwitchCase.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayExample.h" />
     <ClInclude Include="Assignment2_TsungChihKe.h" />
     <ClInclude Include="Assignment3_TsungChihKe.h" />
+    <ClInclude Include="Week4.h" />
     <ClInclude Include="Quiz4.h" />
     <ClInclude Include="Quiz2TsungChihKe.h" />
     <ClInclude Include="Quiz1.h" />

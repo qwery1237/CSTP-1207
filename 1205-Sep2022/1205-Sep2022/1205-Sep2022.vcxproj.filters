@@ -34,6 +34,9 @@
     <Filter Include="Source Files\Week3">
       <UniqueIdentifier>{c007adc1-1c51-4271-a16c-b34d7c78b558}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Week4">
+      <UniqueIdentifier>{2b62a100-e1d1-4123-baa1-a1eb7bc5c1bf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1205-Sep2022.cpp">
@@ -66,6 +69,12 @@
     <ClCompile Include="Quiz4.cpp">
       <Filter>Source Files\Week3</Filter>
     </ClCompile>
+    <ClCompile Include="Week4.cpp">
+      <Filter>Source Files\Week4</Filter>
+    </ClCompile>
+    <ClCompile Include="Quiz5.cpp">
+      <Filter>Source Files\Week4</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayExample.h">
@@ -88,6 +97,9 @@
     </ClInclude>
     <ClInclude Include="Quiz4.h">
       <Filter>Source Files\Week3</Filter>
+    </ClInclude>
+    <ClInclude Include="Week4.h">
+      <Filter>Source Files\Week4</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
