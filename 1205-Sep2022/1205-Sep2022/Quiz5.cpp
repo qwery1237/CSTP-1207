@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstring>
 
+
 void CstringPring() {
 	char name[50];
 	char address[100];

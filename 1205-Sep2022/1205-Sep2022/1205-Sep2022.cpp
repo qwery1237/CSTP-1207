@@ -21,16 +21,16 @@ int main()
     //Basicconditionals();
     // Week2Quiz2();
     //Assignment2();
-    int x = 10;
-    int y = 20;
-    std::cout << "x=" << x << "y=" << y << std::endl;
-    SwapCopies(x, y);
-    std::cout << "x=" << x << "y=" << y << std::endl;
+    //int x = 10;
+    //int y = 20;
+    //std::cout << "x=" << x << "y=" << y << std::endl;
+    //SwapCopies(x, y);
+    //std::cout << "x=" << x << "y=" << y << std::endl;
 
-    Swap(&x, &y);
-    std::cout << "x=" << x << "y=" << y << std::endl;
+    //Swap(&x, &y);
+    //std::cout << "x=" << x << "y=" << y << std::endl;
   
-    ArrayAccessByPointer();
+    //ArrayAccessByPointer();
 
     //int arr[10] = {1,2,3,4,5,6,7,8,9,10};
     //InitializeArray(arr, 10);
@@ -43,13 +43,15 @@ int main()
     //bool newBoolArr[4] = { false, false, false, false };
     //Quize4(newBoolArr, 4, true);
     
-    bool testBoolArr[5] = { true, false, true, false, false };
-    Quize3(&testBoolArr[0], 5);
-    Quize4(&testBoolArr[0], 5, true);
-    Quize3(&testBoolArr[0], 5);
+    //bool testBoolArr[5] = { true, false, true, false, false };
+    //Quize3(&testBoolArr[0], 5);
+    //Quize4(&testBoolArr[0], 5, true);
+    //Quize3(&testBoolArr[0], 5);
 
-    TestCString();
-    CstringPring();
+    //TestCString();
+    //CstringPring();
+    /*Assignment4a();*/
+    Assignment4b();
 
     return 0;
 

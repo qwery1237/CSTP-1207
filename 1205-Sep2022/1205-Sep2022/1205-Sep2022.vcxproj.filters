@@ -75,6 +75,12 @@
     <ClCompile Include="Quiz5.cpp">
       <Filter>Source Files\Week4</Filter>
     </ClCompile>
+    <ClCompile Include="Assignment4a_TsungChihKe.cpp">
+      <Filter>Source Files\Week4</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment4b_TsungChihKe.cpp">
+      <Filter>Source Files\Week4</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayExample.h">
