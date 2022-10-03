@@ -27,9 +27,7 @@ void Assignment4b() {
 			}
 		}
 		std::cout << letterConvert << std::endl;
-	}
-	
-	if (strcmp(userRequest, "lower") == 0)
+	}else if (strcmp(userRequest, "lower") == 0)
 	{
 		int i = 0;
 		while (i < strlen(p)) {
@@ -46,4 +44,9 @@ void Assignment4b() {
 		}
 		std::cout << letterConvert << std::endl;
 	}
+	else
+	{
+		std::cout << "Please enter your 'upper' or 'lower' to convert." << std::endl;
+	}
+
 }
