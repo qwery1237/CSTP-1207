@@ -30,6 +30,18 @@
     <ClCompile Include="Assignment5_TsungChihKe.cpp">
       <Filter>Source Files\Assignment5</Filter>
     </ClCompile>
+    <ClCompile Include="Week5.cpp">
+      <Filter>Source Files\Week5</Filter>
+    </ClCompile>
+    <ClCompile Include="ExploreCasting.cpp">
+      <Filter>Source Files\Week5</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomNumber.cpp">
+      <Filter>Source Files\Week5</Filter>
+    </ClCompile>
+    <ClCompile Include="GuessingGame.cpp">
+      <Filter>Source Files\Week5</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Week4.h">

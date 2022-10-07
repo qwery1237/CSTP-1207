@@ -12,7 +12,11 @@ int main()
     //TestStringType();
     //getDogInfo();
     //TestStringType2();
-    std::cout << AddingMachine() << std::endl;;
+    /*std::cout << AddingMachine() << std::endl;*/
+  /*  TestColorEnum();*/
+    //ExamineBasicRandomNumbers();
+    GuessingCame();
+
     return 0;
 }
 
