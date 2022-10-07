@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void AddingMachine() {
+ int AddingMachine() {
 
 	int sum = 0;
 
@@ -28,7 +28,9 @@ void AddingMachine() {
 
 	} while (newNum != 0);
 
-	cout << "The sum of numbers: " << sum << endl;
+	return sum;
+
+	/*cout << "The sum of numbers: " << sum << endl;*/
 
 }
 

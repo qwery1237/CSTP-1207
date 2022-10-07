@@ -12,7 +12,7 @@ int main()
     //TestStringType();
     //getDogInfo();
     //TestStringType2();
-    AddingMachine();
+    std::cout << AddingMachine() << std::endl;;
     return 0;
 }
 
