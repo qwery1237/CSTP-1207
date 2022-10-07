@@ -3,14 +3,16 @@
 
 #include <iostream>
 #include "Week4.h"
+#include "Assignment5.h"
 
 int main()
 {
     //TestStrTok();
     //TestTypecoversion();
     //TestStringType();
-    getDogInfo();
-    TestStringType2();
+    //getDogInfo();
+    //TestStringType2();
+    AddingMachine();
     return 0;
 }
 

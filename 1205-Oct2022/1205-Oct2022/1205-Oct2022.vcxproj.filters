@@ -16,6 +16,9 @@
     <Filter Include="Source Files\Week5">
       <UniqueIdentifier>{13a93851-e7c5-459a-b3c9-226eff0ddbb7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Assignment5">
+      <UniqueIdentifier>{b1505d48-6159-4d19-8945-5f4429df2796}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1205-Oct2022.cpp">
@@ -24,10 +27,16 @@
     <ClCompile Include="Week4.cpp">
       <Filter>Source Files\Week5</Filter>
     </ClCompile>
+    <ClCompile Include="Assignment5_TsungChihKe.cpp">
+      <Filter>Source Files\Assignment5</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Week4.h">
       <Filter>Source Files\Week5</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment5.h">
+      <Filter>Source Files\Assignment5</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
