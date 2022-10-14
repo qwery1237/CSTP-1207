@@ -1,2 +1,3 @@
 #pragma once
-void Assignment6();
+void Assignment6A();
+void Assignment6B();

@@ -17,8 +17,9 @@ int main()
   /*  TestColorEnum();*/
     //ExamineBasicRandomNumbers();
     //GuessingCame();
-    /*ExploreBitwiseBasics();*/
-    Assignment6();
+    ExploreBitwiseBasics();
+    //Assignment6A();
+    Assignment6B;
 
     return 0;
 }

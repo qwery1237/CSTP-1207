@@ -48,7 +48,10 @@
     <ClCompile Include="BitwiseOperators.cpp">
       <Filter>Source Files\Week5</Filter>
     </ClCompile>
-    <ClCompile Include="Assignment6A.cpp">
+    <ClCompile Include="Assignment6A_TsungChihKe.cpp">
+      <Filter>Source Files\Assignment6</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment6B_TsungChihKe.cpp">
       <Filter>Source Files\Assignment6</Filter>
     </ClCompile>
   </ItemGroup>

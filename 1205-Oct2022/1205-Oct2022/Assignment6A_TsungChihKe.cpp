@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void Assignment6() {
+void Assignment6A() {
 	
 	int gameCounter = 0;
 	int winCounter = 0;
