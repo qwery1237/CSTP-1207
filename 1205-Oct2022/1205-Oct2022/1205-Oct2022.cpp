@@ -5,6 +5,7 @@
 #include "Week4.h"
 #include "Assignment5.h"
 #include "Assignment6.h"
+#include "filestream.h"
 
 int main()
 {
@@ -17,9 +18,11 @@ int main()
   /*  TestColorEnum();*/
     //ExamineBasicRandomNumbers();
     //GuessingCame();
-    ExploreBitwiseBasics();
+    //ExploreBitwiseBasics();
     //Assignment6A();
-    Assignment6B;
+    //FileStreamTest();
+    FileStreamTest2();
+
 
     return 0;
 }

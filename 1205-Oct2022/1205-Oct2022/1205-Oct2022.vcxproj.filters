@@ -22,6 +22,9 @@
     <Filter Include="Source Files\Assignment6">
       <UniqueIdentifier>{59961359-0e7d-4516-bf7b-fd0a33508da5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Filestream">
+      <UniqueIdentifier>{30d67801-6daf-42a4-bcdb-5acc78ddb24c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1205-Oct2022.cpp">
@@ -51,8 +54,8 @@
     <ClCompile Include="Assignment6A_TsungChihKe.cpp">
       <Filter>Source Files\Assignment6</Filter>
     </ClCompile>
-    <ClCompile Include="Assignment6B_TsungChihKe.cpp">
-      <Filter>Source Files\Assignment6</Filter>
+    <ClCompile Include="Filestreamex1.cpp">
+      <Filter>Source Files\Filestream</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -64,6 +67,9 @@
     </ClInclude>
     <ClInclude Include="Assignment6.h">
       <Filter>Source Files\Assignment6</Filter>
+    </ClInclude>
+    <ClInclude Include="filestream.h">
+      <Filter>Source Files\Filestream</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
