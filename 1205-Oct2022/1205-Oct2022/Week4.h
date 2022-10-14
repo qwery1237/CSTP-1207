@@ -13,3 +13,4 @@ void TestStringType2();
 void TestColorEnum();
 void ExamineBasicRandomNumbers();
 void GuessingCame();
+void ExploreBitwiseBasics();

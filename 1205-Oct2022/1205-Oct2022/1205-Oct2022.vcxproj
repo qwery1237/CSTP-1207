@@ -141,9 +141,11 @@
   <ItemGroup>
     <ClCompile Include="1205-Oct2022.cpp" />
     <ClCompile Include="Assignment5_TsungChihKe.cpp" />
+    <ClCompile Include="Assignment6A.cpp" />
     <ClCompile Include="ExploreCasting.cpp" />
     <ClCompile Include="RandomNumber.cpp" />
     <ClCompile Include="GuessingGame.cpp" />
+    <ClCompile Include="BitwiseOperators.cpp" />
     <ClCompile Include="Week5.cpp" />
     <ClCompile Include="Week4.cpp">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -151,6 +153,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Assignment5.h" />
+    <ClInclude Include="Assignment6.h" />
     <ClInclude Include="Week4.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

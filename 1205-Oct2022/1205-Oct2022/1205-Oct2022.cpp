@@ -4,6 +4,7 @@
 #include <iostream>
 #include "Week4.h"
 #include "Assignment5.h"
+#include "Assignment6.h"
 
 int main()
 {
@@ -15,7 +16,9 @@ int main()
     /*std::cout << AddingMachine() << std::endl;*/
   /*  TestColorEnum();*/
     //ExamineBasicRandomNumbers();
-    GuessingCame();
+    //GuessingCame();
+    /*ExploreBitwiseBasics();*/
+    Assignment6();
 
     return 0;
 }

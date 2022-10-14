@@ -19,6 +19,9 @@
     <Filter Include="Source Files\Assignment5">
       <UniqueIdentifier>{b1505d48-6159-4d19-8945-5f4429df2796}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Assignment6">
+      <UniqueIdentifier>{59961359-0e7d-4516-bf7b-fd0a33508da5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1205-Oct2022.cpp">
@@ -42,6 +45,12 @@
     <ClCompile Include="GuessingGame.cpp">
       <Filter>Source Files\Week5</Filter>
     </ClCompile>
+    <ClCompile Include="BitwiseOperators.cpp">
+      <Filter>Source Files\Week5</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment6A.cpp">
+      <Filter>Source Files\Assignment6</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Week4.h">
@@ -49,6 +58,9 @@
     </ClInclude>
     <ClInclude Include="Assignment5.h">
       <Filter>Source Files\Assignment5</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment6.h">
+      <Filter>Source Files\Assignment6</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
