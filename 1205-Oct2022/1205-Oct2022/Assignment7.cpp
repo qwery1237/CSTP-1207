@@ -3,34 +3,15 @@
 #include <cstring>
 #include <string>
 using namespace std;
-#define MAX_FILENAME_SIZE 128
-#define COLUMN_WIDTH 80
 
-void FileStreamTest() {
-	//file output stream
-	ofstream fout1("C:\\Users\\000447172\\OneDrive\\VCC\\Full2022\\TextFiles\\output1.txt");
 
-	fout1 << "Output1:this is the first line." << endl;
-	fout1 << "01:and this is second line." << endl;
-
-	fout1.close();
-
-	ofstream fout2("C:\\Users\\000447172\\OneDrive\\VCC\\Full2022\\TextFiles\\output2.txt");
-	fout2 << "02:this is the first line." << endl;
-	fout2 << "02:and this is second line." << endl;
-
-	fout2.close();
-}
-
-void FileStreamTest2() {
+void Assignment7() {
     int const filename_maxsize = 100;
     char filename[filename_maxsize];
     cout << "enter a filename and press ENTER:";
     cin.getline(filename, filename_maxsize);
 
-    strcat_s(filename, ".txt");
-
-    cout << filename << endl;
+    cout << "Your file name is: " << filename << endl;
 
     ofstream file_out(filename);
     if (!file_out)
@@ -38,17 +19,33 @@ void FileStreamTest2() {
         cout << "FILENAME: " << filename << " could not be opened" << endl;
         return;
     }
+    cin.clear();
+    cin.ignore(1024, '\n');
 
-    cout << "Filename: " << filename << "was opened." << endl;
-    file_out << "I have created this file and this is the 1st line" << endl;
-    file_out << "end" << endl;
+    int numLine;
+    cout << "please enter how many lines ";
+    cin >> numLine;
 
+    char line[filename_maxsize];
+    for (int i = 0; i < numLine; ++i) {
+        cin.clear();
+        cin.ignore(1024, '\n');
+        cout << "please enter your content of line " << i+1 << " : "<< endl;
+        cin.getline(line, filename_maxsize);
+      
+        
+
+    }
+    file_out << line << endl;
+ 
     file_out.close();
 }
 
-void Displayfile() {
+void DisplayQuiz7() {
     int const filename_maxsize = 100;
     char filename[filename_maxsize];
+    cin.clear();
+    cin.ignore(1024, '\n');
     cout << "enter a filename and press ENTER:";
     cin.getline(filename, filename_maxsize);
 
@@ -61,13 +58,9 @@ void Displayfile() {
     }
 
     string line;
-    
+
     while (!file_in.eof()) {
         getline(file_in, line);
         cout << line << endl;
     }
-    
-
-
-
 }

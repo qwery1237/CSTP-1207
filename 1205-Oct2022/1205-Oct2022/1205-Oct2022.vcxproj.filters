@@ -57,6 +57,9 @@
     <ClCompile Include="Filestreamex1.cpp">
       <Filter>Source Files\Filestream</Filter>
     </ClCompile>
+    <ClCompile Include="Assignment7.cpp">
+      <Filter>Source Files\Filestream</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Week4.h">

@@ -21,7 +21,12 @@ int main()
     //ExploreBitwiseBasics();
     //Assignment6A();
     //FileStreamTest();
-    FileStreamTest2();
+    /*FileStreamTest2();*/
+    //Displayfile();
+    //Quiz7();
+   
+    Assignment7();
+    DisplayQuiz7();
 
 
     return 0;
