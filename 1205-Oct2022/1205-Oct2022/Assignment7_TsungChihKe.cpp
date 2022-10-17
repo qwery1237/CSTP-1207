@@ -33,10 +33,9 @@ void Assignment7() {
         cout << "please enter your content of line " << i+1 << " : "<< endl;
         cin.getline(line, filename_maxsize);
       
-        
-
+        file_out << line << endl;
     }
-    file_out << line << endl;
+    
  
     file_out.close();
 }

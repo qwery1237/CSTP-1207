@@ -57,7 +57,7 @@
     <ClCompile Include="Filestreamex1.cpp">
       <Filter>Source Files\Filestream</Filter>
     </ClCompile>
-    <ClCompile Include="Assignment7.cpp">
+    <ClCompile Include="Assignment7_TsungChihKe.cpp">
       <Filter>Source Files\Filestream</Filter>
     </ClCompile>
   </ItemGroup>
