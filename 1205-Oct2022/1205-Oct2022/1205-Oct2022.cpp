@@ -6,6 +6,10 @@
 #include "Assignment5.h"
 #include "Assignment6.h"
 #include "filestream.h"
+#include "point.h"
+#include "Fraction.h"
+
+using namespace std;
 
 int main()
 {
@@ -25,9 +29,41 @@ int main()
     //Displayfile();
     //Quiz7();
    
-    Assignment7();
-    DisplayQuiz7();
+    //Assignment7();
+    //DisplayQuiz7();
+    //Point p1, p2;
+    //p1.Set(5, 7);
+    //p2.Set(0, 10);
+    //cout << "p1: " << p1.GetX()<< ", " << p1.GetY() << endl;
+    //cout << "p2: " << p1.GetX()<< ", " << p1.GetY() << endl;
 
+    //Point p1;
+    //p1.SetX(5);
+    //p1.SetY(7);
+
+    //cout << "X: " << p1.GetX() << ", " << "Y: " << p1.GetY() << endl;
+
+    //Point p1;
+
+    //p1.LitmitSetX(-120);
+    //p1.LitmitSetY(150);
+  
+    //
+    //cout << "X: " << p1.GetX() << ", " << "Y: " << p1.GetY() << endl;
+   
+    //Fraction f1;
+
+    //f1.Set(2, 3);
+    //cout << "Den: " << f1.GetDen() << ", " << "Num: " << f1.GetNum() << endl;
+    /*TestPointObject();*/
+
+    //Point p1;
+    //p1.arrSet(1, 0);
+
+    //cout << "array:" << p1.GetX() << p1.GetY()<< endl;
+
+    Fraction F1;
+    F1.LowestCommonDenominator(18, 12);
 
     return 0;
 }

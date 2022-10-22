@@ -25,6 +25,9 @@
     <Filter Include="Source Files\Filestream">
       <UniqueIdentifier>{30d67801-6daf-42a4-bcdb-5acc78ddb24c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ObjectsAndClasses">
+      <UniqueIdentifier>{3cc229d0-46e9-4654-8e31-84a54594a639}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1205-Oct2022.cpp">
@@ -60,6 +63,18 @@
     <ClCompile Include="Assignment7_TsungChihKe.cpp">
       <Filter>Source Files\Filestream</Filter>
     </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files\ObjectsAndClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ExerciseOfObject.cpp">
+      <Filter>Source Files\ObjectsAndClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Fraction.cpp">
+      <Filter>Source Files\ObjectsAndClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ExamineObjects.cpp">
+      <Filter>Source Files\ObjectsAndClasses</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Week4.h">
@@ -73,6 +88,12 @@
     </ClInclude>
     <ClInclude Include="filestream.h">
       <Filter>Source Files\Filestream</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Source Files\ObjectsAndClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Fraction.h">
+      <Filter>Source Files\ObjectsAndClasses</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

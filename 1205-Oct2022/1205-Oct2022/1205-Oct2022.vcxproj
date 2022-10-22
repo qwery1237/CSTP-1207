@@ -142,8 +142,12 @@
     <ClCompile Include="1205-Oct2022.cpp" />
     <ClCompile Include="Assignment5_TsungChihKe.cpp" />
     <ClCompile Include="Assignment6A_TsungChihKe.cpp" />
+    <ClCompile Include="ExamineObjects.cpp" />
+    <ClCompile Include="ExerciseOfObject.cpp" />
     <ClCompile Include="ExploreCasting.cpp" />
     <ClCompile Include="Assignment7_TsungChihKe.cpp" />
+    <ClCompile Include="Fraction.cpp" />
+    <ClCompile Include="Point.cpp" />
     <ClCompile Include="RandomNumber.cpp" />
     <ClCompile Include="GuessingGame.cpp" />
     <ClCompile Include="BitwiseOperators.cpp" />
@@ -157,6 +161,8 @@
     <ClInclude Include="Assignment5.h" />
     <ClInclude Include="Assignment6.h" />
     <ClInclude Include="filestream.h" />
+    <ClInclude Include="Fraction.h" />
+    <ClInclude Include="Point.h" />
     <ClInclude Include="Week4.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
