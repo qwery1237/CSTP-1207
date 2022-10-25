@@ -113,7 +113,7 @@ List of Answers
 bool isVowel(char *pc){
 
      char vowels []{'a', 'e', 'e','i', 'o', 'u'};
-     bool result = true;
+
      for(char c : vowels){
 	if (c == *pc){
 	 return true
