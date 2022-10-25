@@ -139,4 +139,4 @@ Point:Point(Point const &src){
   y= src.y;
 }
 
-10.C
+10.A
