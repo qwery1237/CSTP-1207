@@ -14,9 +14,9 @@ public:
 	void SetN(int n);
 	int GetNum();
 	int GetDen();
-	int LowestCommonDenominator(int a, int b);
+	
 
 private:
 	int GreatestCommonFactor(int a, int b);
-	
+	int LowestCommonDenominator(int a, int b);
 };

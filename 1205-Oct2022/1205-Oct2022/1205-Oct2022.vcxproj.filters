@@ -75,6 +75,21 @@
     <ClCompile Include="ExamineObjects.cpp">
       <Filter>Source Files\ObjectsAndClasses</Filter>
     </ClCompile>
+    <ClCompile Include="3DPoint.cpp">
+      <Filter>Source Files\ObjectsAndClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Source Files\ObjectsAndClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Employee.cpp">
+      <Filter>Source Files\ObjectsAndClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneNumber.cpp">
+      <Filter>Source Files\ObjectsAndClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="assignmentOfLinkedlistAndNotd.cpp">
+      <Filter>Source Files\ObjectsAndClasses</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Week4.h">
@@ -93,6 +108,24 @@
       <Filter>Source Files\ObjectsAndClasses</Filter>
     </ClInclude>
     <ClInclude Include="Fraction.h">
+      <Filter>Source Files\ObjectsAndClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="3DPoint.h">
+      <Filter>Source Files\ObjectsAndClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Address.h">
+      <Filter>Source Files\ObjectsAndClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneNumber.h">
+      <Filter>Source Files\ObjectsAndClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Source Files\ObjectsAndClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Source Files\ObjectsAndClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
       <Filter>Source Files\ObjectsAndClasses</Filter>
     </ClInclude>
   </ItemGroup>

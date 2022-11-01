@@ -2,12 +2,15 @@
 //
 
 #include <iostream>
+#include<list>
 #include "Week4.h"
 #include "Assignment5.h"
 #include "Assignment6.h"
 #include "filestream.h"
 #include "point.h"
 #include "Fraction.h"
+#include "Node.h"
+#include "LinkedList.h"
 
 using namespace std;
 
@@ -62,8 +65,17 @@ int main()
 
     //cout << "array:" << p1.GetX() << p1.GetY()<< endl;
 
-    Fraction F1;
-    F1.LowestCommonDenominator(18, 12);
+   /* TestSTLObjects();*/
+ /*   TestNode();*/
+
+    list<int> numbers{ 5, 7, 90, 8,67 };
+    //PrintList(numbers);
+
+    Node n1(5);
+    Node n2(5, &n1);
+    Node n3(8, &n2);
+    
+    PrintNodeList(&n3);
 
     return 0;
 }

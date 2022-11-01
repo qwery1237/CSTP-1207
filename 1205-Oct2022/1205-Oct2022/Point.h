@@ -8,7 +8,7 @@ public:
 
 	//Function Members
 public:
-	Point();
+	Point(); // default constructor
 	Point(int x, int y);
 	Point(Point const& src);
 	int GetX();
@@ -20,6 +20,9 @@ public:
 	void LitmitSetX(int x);
 	void LitmitSetY(int y);
 	void arrSet(int x, int y);
+	void AddX(Point& src);
 	
 };
 void TestPointObject();
+void TestSTLObjects();
+
