@@ -68,14 +68,16 @@ int main()
    /* TestSTLObjects();*/
  /*   TestNode();*/
 
-    list<int> numbers{ 5, 7, 90, 8,67 };
+    //list<int> numbers{ 5, 7, 90, 8,67 };
     //PrintList(numbers);
 
-    Node n1(5);
-    Node n2(5, &n1);
-    Node n3(8, &n2);
-    
-    PrintNodeList(&n3);
+    //Node n1(5);
+    //Node n2(5, &n1);
+    //Node n3(8, &n2);
+    //
+    //PrintNodeList(&n3);
+    TestGame();
+   
 
     return 0;
 }

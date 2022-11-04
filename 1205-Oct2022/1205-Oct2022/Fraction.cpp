@@ -3,15 +3,20 @@
 
 //Fraction::Fraction()
 //{
+//	num = 0;
+//	den = 0;
 //}
 //
 //Fraction::Fraction(int n)
 //{
+//	num = 0;
+//	den = 0;
 //}
 //
 //Fraction::Fraction(int n, int d)
 //{
-//	Set(n, d);
+//	num = 0;
+//	den = 0;
 //}
 
 int Fraction::GetDen()

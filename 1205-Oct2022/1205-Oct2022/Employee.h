@@ -18,5 +18,8 @@ private:
 	PhoneNumber* CellNumber;
 
 public:
+	//this is the default constructor
 	Employee();
+
+	Employee(int id, const string& firstName, const string& lastName);
 };
