@@ -143,6 +143,7 @@
     <ClCompile Include="Assignment5_TsungChihKe.cpp" />
     <ClCompile Include="Assignment6A_TsungChihKe.cpp" />
     <ClCompile Include="assignment8TsungChihKe.cpp" />
+    <ClCompile Include="Car.cpp" />
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="ExamineObjects.cpp" />
     <ClCompile Include="ExerciseOfObject.cpp" />
@@ -150,6 +151,7 @@
     <ClCompile Include="Assignment7_TsungChihKe.cpp" />
     <ClCompile Include="Fraction.cpp" />
     <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="Motorcycle.cpp" />
     <ClCompile Include="PhoneNumber.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Point.cpp" />
@@ -159,6 +161,8 @@
     <ClCompile Include="Filestreamex1.cpp" />
     <ClCompile Include="3DPoint.cpp" />
     <ClCompile Include="Node.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Vehicle.cpp" />
     <ClCompile Include="Week5.cpp" />
     <ClCompile Include="Week4.cpp">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -168,18 +172,24 @@
     <ClInclude Include="3DPoint.h" />
     <ClInclude Include="Assignment5.h" />
     <ClInclude Include="Assignment6.h" />
+    <ClInclude Include="Car.h" />
     <ClInclude Include="Employee.h" />
+    <ClInclude Include="EngineType.h" />
     <ClInclude Include="filestream.h" />
     <ClInclude Include="Fraction.h" />
     <ClInclude Include="Address.h" />
+    <ClInclude Include="Game.h" />
     <ClInclude Include="GameLoop.h" />
     <ClInclude Include="GameManager.h" />
+    <ClInclude Include="Entity.h" />
     <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="Motorcycle.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="PhoneNumber.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="PlayerOptions.h" />
     <ClInclude Include="Point.h" />
+    <ClInclude Include="Vehicle.h" />
     <ClInclude Include="Week4.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

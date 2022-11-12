@@ -76,7 +76,12 @@ int main()
     //Node n3(8, &n2);
     //
     //PrintNodeList(&n3);
-    TestGame();
+    //TestGame();
+ /*   TestScope();*/
+    //StartGameLoop();
+    RumGame();
+
+   /* PrintNumberOfWheels();*/
    
 
     return 0;

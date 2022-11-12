@@ -3,4 +3,5 @@
 using namespace std;
 void PrintList(list<int> &nums);
 
-void TestGame();
+void RumGame();
+void TestScope();

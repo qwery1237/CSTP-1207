@@ -3,7 +3,7 @@ using namespace std;
 
 void TestStaticCat() {
 	//int by default is signed
-	int largeNumber = 1000;
+	int largeNumber = 257;
 	unsigned int largeNumber2 = 20000000;
 
 	//char by default is signed
@@ -13,6 +13,7 @@ void TestStaticCat() {
 
 	// smallNumber 0xe8 'e' char
 	// smallNumber2 0xe8 'e' unsigned char
-
+	signed char c1 = static_cast<char>(largeNumber);
+	unsigned char c2 = static_cast<char>(largeNumber);
 	char smallNumber3 = static_cast<char>(largeNumber);
 }

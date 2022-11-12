@@ -14,3 +14,5 @@ void TestColorEnum();
 void ExamineBasicRandomNumbers();
 void GuessingCame();
 void ExploreBitwiseBasics();
+void PrintNumberOfWheels();
+void StartGameLoop();

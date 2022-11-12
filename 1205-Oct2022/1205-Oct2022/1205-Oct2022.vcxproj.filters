@@ -28,6 +28,9 @@
     <Filter Include="Source Files\ObjectsAndClasses">
       <UniqueIdentifier>{3cc229d0-46e9-4654-8e31-84a54594a639}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ObjectsAndClasses\Vehicle">
+      <UniqueIdentifier>{cabbdf76-479a-4aea-bea6-c95f81a1557d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1205-Oct2022.cpp">
@@ -96,6 +99,18 @@
     <ClCompile Include="GameManager.cpp">
       <Filter>Source Files\ObjectsAndClasses</Filter>
     </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>Source Files\ObjectsAndClasses\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Source Files\ObjectsAndClasses\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="Motorcycle.cpp">
+      <Filter>Source Files\ObjectsAndClasses\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\ObjectsAndClasses\Vehicle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Week4.h">
@@ -144,6 +159,24 @@
       <Filter>Source Files\ObjectsAndClasses</Filter>
     </ClInclude>
     <ClInclude Include="PlayerOptions.h">
+      <Filter>Source Files\ObjectsAndClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>Source Files\ObjectsAndClasses\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Source Files\ObjectsAndClasses\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineType.h">
+      <Filter>Source Files\ObjectsAndClasses\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Motorcycle.h">
+      <Filter>Source Files\ObjectsAndClasses\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Source Files\ObjectsAndClasses\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
       <Filter>Source Files\ObjectsAndClasses</Filter>
     </ClInclude>
   </ItemGroup>

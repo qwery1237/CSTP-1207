@@ -1,14 +1,16 @@
 
-#include "3DPoint.h"
 #include "Point.h"
 #include <iostream>
-#include<list>
+#include <list>
+#include "3DPoint.h"
+#include "PhoneNumber.h"
 #include "Node.h"
 #include "Fraction.h"
 #include "Employee.h"
 #include "Player.h"
 #include "GameManager.h"
-
+#include "Motorcycle.h"
+#include "Car.h"
 
 using namespace std;
 
@@ -88,11 +90,24 @@ void TestNode() {
 	Node n3(7, &n2);	
 }
 
+void TestScope()
+{
+	Player player1;
+	player1.SetName("Jimmy", "Brady");
 
-void TestGame()
+	GameManagement::WelcomePlayer(player1.GetName());
+
+	Player player3;
+	Player player2;
+	player3 = player2 = player1;
+
+	return;
+}
+
+void RumGame()
 {
 	Player p1 = GameManagement::GetPlayerInformation();
-	
+
 	GameManagement::WelcomePlayer(p1.GetName());
 
 	bool isPlaying = true;
@@ -100,4 +115,48 @@ void TestGame()
 	{
 		isPlaying = GameManagement::RunGame();
 	}
+}
+
+void PrintNumberOfWheels() {
+	Vehicle vehicle;
+	Car car;
+	Motorcycle motorcycle;
+
+	cout << "vehicle: " << vehicle.GetNumberOfWheels() << endl;
+	cout << "car: " << car.GetNumberOfWheels() << endl;
+	cout << "motorcycle: " << motorcycle.GetNumberOfWheels() << endl;
+
+	// Testing the polymorphic behavior of C++ OOP
+	// through the virtual GetNumberOfWheels method
+	// which has been overriden in the derived classes, Car and Motorcycle.
+	Vehicle* pVehicle = &vehicle;
+	cout << "ptr to vehicle: " << pVehicle->GetNumberOfWheels() << endl;
+
+	// we do not need to convert the pointer to a Motorcycle*
+	pVehicle = &motorcycle;
+	cout << "ptr to motorcycle: " << pVehicle->GetNumberOfWheels() << endl;
+
+	// we do not need to convert the pointer to a Car*
+	pVehicle = &car;
+	cout << "ptr to car: " << pVehicle->GetNumberOfWheels() << endl;
+
+	Car* pCar = dynamic_cast<Car*>(pVehicle);
+	if (pCar != nullptr)
+	{
+		cout << "pCar: " << pCar->GetNumberOfWheels() << endl;
+	}
+
+	Player player1;
+	Player player2;
+	Player player3;
+
+	player1.SetId(1);
+	cout << "player1.id: " << player1.GetId() << endl;
+
+	player2.SetId(2);
+	cout << "player2.id: " << player1.GetId() << endl;
+
+	player3.SetId(3);
+	cout << "player3.id: " << player1.GetId() << endl;
+
 }
