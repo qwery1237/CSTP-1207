@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include "Player.h"
+#include "Entity.h"
 
 using namespace std;
 
@@ -12,5 +13,6 @@ private:
 	void WelcomePlayer(const string& name);
 
 public:
+	
 	void StartGame();
 };

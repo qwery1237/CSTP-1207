@@ -1,8 +1,10 @@
 #pragma once
 #include <iostream>
+#include "Entity.h"
+
 using namespace std;
 
-class Player
+class Player : public Entity
 {
 private:
 	string m_username;
@@ -28,4 +30,7 @@ public:
 
 	// Assignment Operator for our Player class
 	const Player& operator=(const Player& player);
+
+	virtual void Update();
+
 };

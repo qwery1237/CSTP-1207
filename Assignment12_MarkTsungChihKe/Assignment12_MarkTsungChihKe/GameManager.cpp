@@ -16,14 +16,13 @@ bool GameManagement::RunGame()
 	GameManagement::GetPlayerInput(playerInput);
 
 	bool shouldRunGame = EvaluatePlayerInput(playerInput) != PlayerOptions::Quit;
-	cout << shouldRunGame << endl;
+
 	return shouldRunGame;
 }
 
 void GameManagement::GivePlayerOptions()
 {
 	cout << "Please enter your options: NewGame or Quit" << endl;
-
 	// assignment 10: 
 	// provide the text that explains (lists) the options
 	// ask user to enter the input

@@ -5,7 +5,7 @@ Player::Player()
 }
 
 Player::Player(const string& username, const string& name)
-	: m_username(username), m_name(name)
+	:Entity{}, m_username(username), m_name(name)
 	// initializers execute before the constructor begins executing
 {
 	// some code 
@@ -54,3 +54,9 @@ const Player& Player::operator=(const Player& player)
 
 	return *this;
 }
+
+void Player::Update()
+{
+
+}
+

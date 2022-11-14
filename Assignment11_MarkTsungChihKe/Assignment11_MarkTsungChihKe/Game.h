@@ -12,5 +12,6 @@ private:
 	void WelcomePlayer(const string& name);
 
 public:
+	
 	void StartGame();
 };
