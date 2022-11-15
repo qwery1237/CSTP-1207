@@ -9,10 +9,13 @@ class Player : public Entity
 private:
 	string m_username;
 	string m_name;
+	
 
 public:
 	// Default constructor
 	Player();
+
+	Player(int x);
 
 	Player(const string& username, const string& name);
 

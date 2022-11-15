@@ -2,6 +2,7 @@
 #include "Point.h"
 #include <iostream>
 #include <list>
+#include <vector>
 #include "3DPoint.h"
 #include "PhoneNumber.h"
 #include "Node.h"
@@ -11,8 +12,10 @@
 #include "GameManager.h"
 #include "Motorcycle.h"
 #include "Car.h"
+#include "Pair.h"
 
 using namespace std;
+
 
 void TestPointObject()
 {
@@ -57,6 +60,72 @@ void TestPointObject()
 
 	delete[] intArr;
 }
+
+void TestSTLObjectVector()
+{
+	vector<int> numbers;
+	numbers.push_back(1);
+	numbers.push_back(19);
+	numbers.push_back(7);
+
+	for (auto n : numbers)
+	{
+		cout << "number: " << n << endl;
+	}
+
+	cout << "capacity of numbers: " << numbers.capacity() << endl;
+
+	vector<int> numbers2(10);
+	cout << "capacity of number2: " << numbers2.capacity() << endl;
+}
+
+void ErrorHandlingMidLevel()
+{
+	cout << "Mind level function calls ErrorHandlingExample2 " << end;
+	ErrorHandlingExample2();
+}
+
+void ErrorHandlingExample1() {
+	char errorMessage[] = "Wrong Input!";
+	cout << "Enter the size of the array youneed to create: " << endl;
+	int size = 0;
+	cin >> size;
+
+	try
+	{
+		if (size <= 0)
+		{
+			throw errorMessage; // throws an exception
+		}
+		// some other code is here which you want to bypass
+		// the size is less than or equal to zero, we don't wnat the control to continue after line 93
+
+	}
+	catch (char message[]) // catches the exception
+	{
+		cout << endl << "*** " << message << " ***" << endl;
+	}
+
+}
+
+void ErrorHandlingExample2() {
+	char errorMessage[] = "Wrong Input!";
+	cout << "Enter the size of the array youneed to create: " << endl;
+	int size = 0;
+	cin >> size;
+
+	
+		if (size <= 0)
+		{
+			throw errorMessage; // throws an exception
+		}
+		// some other code is here which you want to bypass
+		// the size is less than or equal to zero, we don't wnat the control to continue after line 93
+
+
+
+}
+
 
 void TestSTLObjects()
 {
@@ -117,10 +186,13 @@ void RumGame()
 	}
 }
 
-void PrintNumberOfWheels() {
+void PrintNumberOfWheels()
+{
 	Vehicle vehicle;
 	Car car;
 	Motorcycle motorcycle;
+
+	Car car2("Toyota");
 
 	cout << "vehicle: " << vehicle.GetNumberOfWheels() << endl;
 	cout << "car: " << car.GetNumberOfWheels() << endl;
@@ -145,18 +217,35 @@ void PrintNumberOfWheels() {
 	{
 		cout << "pCar: " << pCar->GetNumberOfWheels() << endl;
 	}
+}
 
+void TestPlayer()
+{
 	Player player1;
 	Player player2;
 	Player player3;
 
 	player1.SetId(1);
-	cout << "player1.id: " << player1.GetId() << endl;
+	cout << "player1.id:" << player1.GetId() << endl;
 
 	player2.SetId(2);
-	cout << "player2.id: " << player1.GetId() << endl;
+	cout << "player2.id:" << player2.GetId() << endl;
 
 	player3.SetId(3);
-	cout << "player3.id: " << player1.GetId() << endl;
+	cout << "player3.id:" << player3.GetId() << endl;
+}
 
+void TestPairTemplate()
+{
+	Pair<int> pair1;
+	pair1.First = 10;
+	pair1.Last = 99;
+
+	Pair<string> pair2;
+	pair2.First = "first value";
+	pair2.Last = "last value";
+	pair2.SetFound(false);
+
+	cout << "pairl of type int: " << pair1.First << " - " << pair1.Last << " - " << pair1.IsFound() << endl;
+	cout << "pairl of type string: " << pair2.First << " - " << pair2.Last << " - " << pair2.IsFound() << endl;
 }

@@ -52,6 +52,7 @@ Player GameManagement::GetPlayerInformation()
 	// Create the player object and return it from the function
 	string username{};
 	string name{};
+	int id{};
 	cout << "Please Enter your username: ";
 	cin >> username;
 	cout << "Please Enter your name: ";

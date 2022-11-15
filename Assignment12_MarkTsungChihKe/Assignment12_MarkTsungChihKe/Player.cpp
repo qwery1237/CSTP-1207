@@ -4,12 +4,18 @@ Player::Player()
 {
 }
 
+Player::Player(int id) : Entity{ id } {
+
+}
+
 Player::Player(const string& username, const string& name)
-	:Entity{}, m_username(username), m_name(name)
+	: m_username(username), m_name(name)
 	// initializers execute before the constructor begins executing
 {
 	// some code 
 }
+
+
 
 Player::~Player()
 {

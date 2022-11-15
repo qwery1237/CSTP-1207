@@ -5,6 +5,7 @@
 
 using namespace std;
 
+
 bool Game::RunGame()
 {
 	return GameManagement::RunGame();
@@ -23,8 +24,11 @@ void Game::WelcomePlayer(const string& name)
 void Game::StartGame()
 {
 	{
+		
 		Player player = GetPlayerInformation();
 		WelcomePlayer(player.GetName());
+		
+		cout << player.GetId() << endl;
 
 		// Check to see if the player wants to end it - hint: return
 		if (RunGame() != true)
@@ -84,4 +88,8 @@ void Game::StartGame()
 			} while (gameCounter < 20);
 		}
 	}
+}
+
+void Game::Update() {
+
 }

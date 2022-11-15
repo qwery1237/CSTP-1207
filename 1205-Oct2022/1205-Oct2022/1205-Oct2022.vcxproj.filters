@@ -31,6 +31,9 @@
     <Filter Include="Source Files\ObjectsAndClasses\Vehicle">
       <UniqueIdentifier>{cabbdf76-479a-4aea-bea6-c95f81a1557d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ObjectsAndClasses\Pair">
+      <UniqueIdentifier>{4b704ea1-b937-4531-a287-95cb97be21ef}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1205-Oct2022.cpp">
@@ -109,7 +112,7 @@
       <Filter>Source Files\ObjectsAndClasses\Vehicle</Filter>
     </ClCompile>
     <ClCompile Include="Entity.cpp">
-      <Filter>Source Files\ObjectsAndClasses\Vehicle</Filter>
+      <Filter>Source Files\ObjectsAndClasses</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -173,11 +176,14 @@
     <ClInclude Include="Motorcycle.h">
       <Filter>Source Files\ObjectsAndClasses\Vehicle</Filter>
     </ClInclude>
-    <ClInclude Include="Entity.h">
-      <Filter>Source Files\ObjectsAndClasses\Vehicle</Filter>
-    </ClInclude>
     <ClInclude Include="Game.h">
       <Filter>Source Files\ObjectsAndClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Source Files\ObjectsAndClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Pair.h">
+      <Filter>Source Files\ObjectsAndClasses\Pair</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

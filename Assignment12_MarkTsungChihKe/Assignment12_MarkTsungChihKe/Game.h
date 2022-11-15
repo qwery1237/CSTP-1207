@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class Game
+class Game : public Entity
 {
 private:
 	bool RunGame();
@@ -13,6 +13,7 @@ private:
 	void WelcomePlayer(const string& name);
 
 public:
-	
+
 	void StartGame();
+	virtual void Update();
 };

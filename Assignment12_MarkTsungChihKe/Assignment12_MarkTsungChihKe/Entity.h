@@ -9,6 +9,8 @@ private:
 	int m_id;
 
 public:
+	Entity();
+	Entity(int id);
 	int GetId();
 	void SetId(int id);
 

@@ -16,3 +16,7 @@ void GuessingCame();
 void ExploreBitwiseBasics();
 void PrintNumberOfWheels();
 void StartGameLoop();
+void TestPairTemplate();
+void TestSTLObjectVector();
+void ErrorHandlingExample1();
+void ErrorHandlingExample2();

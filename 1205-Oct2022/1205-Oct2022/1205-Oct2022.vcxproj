@@ -185,6 +185,7 @@
     <ClInclude Include="LinkedList.h" />
     <ClInclude Include="Motorcycle.h" />
     <ClInclude Include="Node.h" />
+    <ClInclude Include="Pair.h" />
     <ClInclude Include="PhoneNumber.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="PlayerOptions.h" />

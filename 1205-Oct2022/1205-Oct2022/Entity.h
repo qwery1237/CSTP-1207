@@ -11,7 +11,6 @@ private:
 public:
 	Entity();
 	Entity(int id);
-	~Entity();
 	int GetId();
 	void SetId(int id);
 
