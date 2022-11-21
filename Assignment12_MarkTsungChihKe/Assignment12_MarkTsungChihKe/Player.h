@@ -17,7 +17,7 @@ public:
 
 	Player(int x);
 
-	Player(const string& username, const string& name);
+	Player(const string& username, const string& name,const int& id);
 
 	// Destructor - called when the object is out of scope
 	~Player();

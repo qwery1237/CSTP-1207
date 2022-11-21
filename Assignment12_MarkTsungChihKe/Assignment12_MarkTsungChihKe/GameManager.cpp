@@ -57,8 +57,9 @@ Player GameManagement::GetPlayerInformation()
 	cin >> username;
 	cout << "Please Enter your name: ";
 	cin >> name;
-
-	return Player(username, name);
+	cout << "Please Enter your id: ";
+	cin >> id;
+	return Player(username, name,id);
 
 
 }

@@ -8,8 +8,8 @@ Player::Player(int id) : Entity{ id } {
 
 }
 
-Player::Player(const string& username, const string& name)
-	: m_username(username), m_name(name)
+Player::Player(const string& username, const string& name,const int& id)
+	: m_username(username), m_name(name), Entity(id)
 	// initializers execute before the constructor begins executing
 {
 	// some code 
