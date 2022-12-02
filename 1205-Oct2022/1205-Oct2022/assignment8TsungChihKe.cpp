@@ -4,8 +4,8 @@
 
 using namespace std;
 
-void PrintList(list<int> &nums) {
-	for (auto n : nums) {
+void PrintList(list<int> nums) {
+	for (auto &n : nums) {
 		cout << n << endl;
 	}
 }
